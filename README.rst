@@ -11,7 +11,7 @@
   redis
 
 spider 目录：
-    主要负责爬虫页面的解析，requests请求发现，去重，IP代理
+    主要负责爬虫页面的解析
 
 scrapy_redis 目录：
     通过redis构建分布式，将所有发现的请求放在redis库中，然后所有采集设备从中调度分配请求连接 ，可以参考scrapy-redis源码：
